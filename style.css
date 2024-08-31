@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+
+}
+h1{
+    font-weight: normal;
+}
+.shape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 10px;
+   margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    /* background-color:blue ; */
+    border: 1px solid black;
+}
+#square:hover{
+     background-color: red;
+}
+#circle{
+    border-radius: 50%;
+    
+}
+#circle:hover{
+    background-color: green;
+}
+#diamond:hover{
+    background-color: blue;
+    
+}
+#diamond{
+    margin-top: 40px;
+    /* margin-right: 100px; */
+    rotate:45deg ;
+    height: 145px;
+    width: 145px;
+   translate: 30px;
+}
+#diamond h1{
+    rotate: -45deg;
+}
